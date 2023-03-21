@@ -23,7 +23,7 @@ export class OrganizationTreeComponent implements OnInit {
   }
 
   generateTree() {
-    let parentLevel: string = '';
+    let parentCode: string = '';
     let userMap: any = {};
     let node: any;
 
@@ -31,26 +31,26 @@ export class OrganizationTreeComponent implements OnInit {
       userMap[this.users[i].code] = i;
       this.users[i].childs = [];
     }
+    console.log(userMap);
+    
     for (let i = 0; i < this.users.length; i += 1) {
       node = this.users[i];
-      parentLevel = this.getParentCode(node.code);
-      if (parentLevel !== '') {
-        this.users[userMap[parentLevel]].childs?.push(node);
+      parentCode = this.getParentCode(node.code);
+      if (parentCode !== '') {
+        this.users[userMap[parentCode]].childs?.push(node);
       } else {
         this.finalTree.push(node);
+        
       }
     }
   }
 
   getParentCode(code: string) {
-    let parentLevel: any = code.split('.');
-    parentLevel.pop();
-    parentLevel = parentLevel.join('.');
-    return parentLevel;
+    let parentCode: any = code.split('.');
+    parentCode.pop();
+    parentCode = parentCode.join('.');
+    return parentCode;
   }
-  test(event: any) {
-    console.log(event);
-    
-  }
+
 
 }
