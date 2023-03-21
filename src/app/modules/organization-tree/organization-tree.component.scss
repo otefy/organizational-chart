@@ -1,0 +1,16 @@
+.viewTypeBtn {
+    text-align: center;
+    button {
+        border: none;
+        background-color: #2ba6ff;
+        color: white;
+        padding: 10px 15px;
+        border-radius: 17px;
+        transition: all 500ms ease-in-out;
+        cursor: pointer;
+        &:hover {
+            opacity: .8;
+            transition: all 500ms ease-in-out;
+        }
+    }
+}

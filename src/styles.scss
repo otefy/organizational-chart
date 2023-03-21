@@ -11,5 +11,17 @@ body {
             background-size: cover;
             background-position: center center;
         }
+        .ngx-org-title {
+            font-size: 12px
+        }
+        @media screen and (max-width: 950px) {
+            flex-direction: column;
+            .ngx-org-image {
+                margin-right: 0;
+            }
+            .ngx-org-name {
+                text-align: center;
+            }
+        }
     }
 }

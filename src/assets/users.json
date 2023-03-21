@@ -2,51 +2,51 @@
     {
     "name": "ahmed",
     "code": "0001",
-    "image": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg"
+    "imagePath": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg"
     },
     {
     "name": "mohamed",
     "code": "0001.0003.0004.0002",
-    "image": "https://www.investnational.com.au/wp-content/uploads/2016/08/person-stock-2.png"
+    "imagePath": "https://www.investnational.com.au/wp-content/uploads/2016/08/person-stock-2.png"
     },
     {
     "name": "ali",
     "code": "0001.0003",
-    "image": "https://www.mnp.ca/-/media/foundation/integrations/personnel/2020/12/16/13/57/personnel-image-4483.jpg"
+    "imagePath": "https://www.mnp.ca/-/media/foundation/integrations/personnel/2020/12/16/13/57/personnel-image-4483.jpg"
     },
     {
     "name": "ibrahim",
     "code": "0001.0003.0004",
-    "image": "https://api.time.com/wp-content/uploads/2017/12/terry-crews-person-of-year-2017-time-magazine-2.jpg"
+    "imagePath": "https://api.time.com/wp-content/uploads/2017/12/terry-crews-person-of-year-2017-time-magazine-2.jpg"
     },
     {
     "name": "mahmoud",
     "code": "0001.0010.0005",
-    "image": "https://i.cbc.ca/1.6413433.1649444408!/fileImage/httpImage/image.png_gen/derivatives/16x9_780/alexander-macleod.png"
+    "imagePath": "https://i.cbc.ca/1.6413433.1649444408!/fileImage/httpImage/image.png_gen/derivatives/16x9_780/alexander-macleod.png"
     },
     {
     "name": "samy",
     "code": "0001.0010.0006",
-    "image": "https://img.etimg.com/thumb/msid-85174630,width-640,resizemode-4,imgsize-610038/trailing-behind.jpg"
+    "imagePath": "https://img.etimg.com/thumb/msid-85174630,width-640,resizemode-4,imgsize-610038/trailing-behind.jpg"
     },
     {
     "name": "hany",
     "code": "0001.0003.0004.0007",
-    "image": "https://www.al.com/resizer/GT06i1VRWpqtgAHmxaLJc5sh2gw=/1280x0/smart/arc-anglerfish-arc2-prod-advancelocal.s3.amazonaws.com/public/WEDAUZS6UZGFDLZHWBUNPYYM4Q.jpg"
+    "imagePath": "https://www.al.com/resizer/GT06i1VRWpqtgAHmxaLJc5sh2gw=/1280x0/smart/arc-anglerfish-arc2-prod-advancelocal.s3.amazonaws.com/public/WEDAUZS6UZGFDLZHWBUNPYYM4Q.jpg"
     },
     {
     "name": "samir",
     "code": "0001.0010.0005.0008",
-    "image": "https://www.tu-ilmenau.de/unionline/fileadmin/_processed_/0/0/csm_Person_Yury_Prof_Foto_AnLI_Footgrafie__2_.JPG_94f12fbf25.jpg"
+    "imagePath": "https://www.tu-ilmenau.de/unionline/fileadmin/_processed_/0/0/csm_Person_Yury_Prof_Foto_AnLI_Footgrafie__2_.JPG_94f12fbf25.jpg"
     },
     {
     "name": "khalid",
     "code": "0001.0010.0006.0009",
-    "image": "https://www.telegraph.co.uk/content/dam/global-health/2022/09/16/TELEMMGLPICT000309536369_trans_NvBQzQNjv4BqOfbQuL7vt0ioTIEx8Tqi0HwSCF1R0VweJ7DS2UnVMSQ.jpeg"
+    "imagePath": "https://www.telegraph.co.uk/content/dam/global-health/2022/09/16/TELEMMGLPICT000309536369_trans_NvBQzQNjv4BqOfbQuL7vt0ioTIEx8Tqi0HwSCF1R0VweJ7DS2UnVMSQ.jpeg"
     },
     {
     "name": "abdullah",
     "code": "0001.0010",
-    "image": "https://www.nzherald.co.nz/resizer/rD4podDqUbs8yHnoFvRn9yDPUjU=/576x613/smart/filters:quality(70)/cloudfront-ap-southeast-2.images.arcpublishing.com/nzme/3SIZ5QSLJADJJ7TDS3L44JVJZY.jpg"
+    "imagePath": "https://www.nzherald.co.nz/resizer/rD4podDqUbs8yHnoFvRn9yDPUjU=/576x613/smart/filters:quality(70)/cloudfront-ap-southeast-2.images.arcpublishing.com/nzme/3SIZ5QSLJADJJ7TDS3L44JVJZY.jpg"
     }
 ]

@@ -11,12 +11,19 @@ import { UsersService } from 'src/app/services/users.service';
 export class OrganizationTreeComponent implements OnInit {
   users!: User[];
   finalTree: INode[] = [];
+  directionView: any = 'vertical';
   constructor(private usersService: UsersService) { 
   }
 
   ngOnInit(): void {
     this.usersService.getUsers().subscribe(res=> {
-      this.users = res;
+      this.users = res.map(value=>({
+        name: value.name,
+        code: value.code,
+        image: value.imagePath,
+        title: value.code,
+        childs: []
+      }));
       this.generateTree();
     });
     
@@ -29,7 +36,6 @@ export class OrganizationTreeComponent implements OnInit {
 
     for (let i = 0; i < this.users.length; i += 1) {
       userMap[this.users[i].code] = i;
-      this.users[i].childs = [];
     }
     console.log(userMap);
     
@@ -51,6 +57,8 @@ export class OrganizationTreeComponent implements OnInit {
     parentCode = parentCode.join('.');
     return parentCode;
   }
-
+  switchDirection(viewType: string) {
+    this.directionView = viewType;
+  }
 
 }

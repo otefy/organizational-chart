@@ -1,14 +1,14 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { User } from '../models/user-model';
+import { UserFileContent } from '../models/user-file-content-model';
 @Injectable({
   providedIn: 'root'
 })
 export class UsersService {
   private _jsonURL = 'assets/users.json';
   constructor(private http: HttpClient) { }
-  getUsers(): Observable<User[]> {
-    return this.http.get<User[]>(this._jsonURL);
+  getUsers(): Observable<UserFileContent[]> {
+    return this.http.get<UserFileContent[]>(this._jsonURL);
   }
 }

@@ -1,1 +1,5 @@
-<ngx-org-chart *ngIf="finalTree" [nodes]="finalTree" direction="vertical"></ngx-org-chart>
+<ngx-org-chart *ngIf="finalTree" [nodes]="finalTree" [direction]="directionView"></ngx-org-chart>
+<div class="viewTypeBtn">
+    <button *ngIf="directionView == 'vertical'" (click)="switchDirection('horizontal')">Vertical View</button>
+    <button *ngIf="directionView == 'horizontal'" (click)="switchDirection('vertical')">Horizontal View</button>
+</div>
